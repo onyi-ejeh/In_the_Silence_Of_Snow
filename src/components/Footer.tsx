@@ -1,4 +1,4 @@
-import { Facebook, Twitter } from "lucide-react";
+import { Facebook, Twitter, Instagram, Youtube } from "lucide-react";
 
 // Custom TikTok icon since lucide-react doesn't have it
 const TikTokIcon = ({ size = 20, className = "" }: { size?: number; className?: string }) => (
@@ -21,6 +21,8 @@ const TikTokIcon = ({ size = 20, className = "" }: { size?: number; className?: 
 const socialLinks = [
   { name: "Facebook", icon: Facebook, href: "#" },
   { name: "Twitter", icon: Twitter, href: "#" },
+  { name: "Instagram", icon: Instagram, href: "#" },
+  { name: "YouTube", icon: Youtube, href: "#" },
   { name: "TikTok", icon: TikTokIcon, href: "#" },
 ];
 
