@@ -27,7 +27,7 @@ const CTASection = () => {
               size="xl"
               className="text-primary"
             >
-              Pre-Order Now
+              Order Now
             </Button>
             <Button 
               variant="ghost" 

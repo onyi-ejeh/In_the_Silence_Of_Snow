@@ -64,10 +64,7 @@ const HeroSection = () => {
               className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start"
             >
               <Button variant="hero" size="lg">
-                Pre-Order Now
-              </Button>
-              <Button variant="hero-outline" size="lg">
-                Read an Excerpt
+                Order Now
               </Button>
             </motion.div>
 
