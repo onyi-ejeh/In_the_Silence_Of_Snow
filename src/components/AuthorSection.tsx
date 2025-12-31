@@ -29,9 +29,10 @@ const AuthorSection = () => {
               </h2>
 
               <p className="font-body text-lg text-muted-foreground leading-relaxed mb-4">
-                Victoria Onyi Ejeh is a writer, thinker, and reluctant theologian whose work explores 
-                the intersection of faith, culture, and personal transformation. Born in Nigeria and 
-                now calling Sweden home, she writes from the liminal spaces between worlds.
+                Victoria Onyi Ejeh is a writer and reflective thinker whose work explores 
+                the intersection of faith, culture, and personal transformation. 
+                Born in Nigeria and now calling Sweden home, she writes from the liminal spaces between worlds.
+
               </p>
 
               <p className="font-body text-lg text-muted-foreground leading-relaxed">
