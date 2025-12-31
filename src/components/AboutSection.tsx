@@ -18,16 +18,41 @@ const AboutSection = () => {
           <div className="w-16 h-px bg-camel mx-auto mb-10" />
 
           <p className="font-body text-lg md:text-xl text-muted-foreground leading-relaxed mb-8">
-            In the hushed landscapes of Sweden, where winter stretches long and stillness speaks volumes, 
-            Victoria Onyi Ejeh embarks on an unexpected journey—not away from faith, but deeper into its 
-            most uncomfortable questions.
+           In recent years, many people have begun to question, rethink, or step away from the faith they once held. 
+            This process is often called “deconstruction”. This movement has touched families, friendships, 
+            and church communities in deeply personal ways.
+
           </p>
 
           <p className="font-body text-lg md:text-xl text-muted-foreground leading-relaxed mb-8">
-            This memoir doesn't offer easy answers or tidy resolutions. Instead, it invites you into the 
-            sacred space of honest doubt, where the crumbling of certainty becomes the foundation for 
-            something more resilient, more authentic, more human.
+           
+            For some, it has led to clarity and growth. For others, it has brought confusion, distance, and pain. 
+            This book offers a way to understand what is happening. Without panic, judgment, or denial, 
+            but to respond with honesty, compassion, and depth.
+
           </p>
+
+          <p className="font-body text-lg md:text-xl text-muted-foreground leading-relaxed mb-8">
+
+            Maybe:
+           • You have a loved one who is questioning or re-examining their faith, and you’re unsure how to respond without pushing them further away.
+
+           • You’re trying to understand the profound spiritual shift a friend or family member is going through.
+
+           • Your relationships have become strained because of disagreements about faith, belief, or values—and you don’t know how to hold both truth and love.
+
+           • You yourself are wrestling with doubt and difficult questions about God, the Bible, and meaning, and you’re afraid of where those questions might lead.
+
+            Some who step away from the faith do so carrying deep wounds from the church. Others struggle under moral expectations they can no longer reconcile with their conscience. 
+            For some, the process leads to a highly personalized form of spirituality. For others, it results in a shift toward agnosticism, atheism, humanism, 
+            or other belief systems as they search for coherence and meaning.
+
+            This book is drawn from Victoria’s lived experience, after spending over a decade as an atheist and later returning to Christianity. 
+            It helps you understand what faith deconstruction is, where it comes from, and why it can feel compelling, while also examining how it can leave people disoriented. 
+            The book offers thoughtful ways to respond with wisdom, clarity, and love, grounded in a biblical, archaeological, and philosophical worldview.
+
+          </p>
+          
 
           <p className="font-body text-lg md:text-xl text-muted-foreground leading-relaxed">
             <span className="italic">"In the Silence of Snow"</span> is for anyone who has felt the weight of 
