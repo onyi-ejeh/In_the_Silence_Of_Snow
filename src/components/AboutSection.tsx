@@ -32,19 +32,33 @@ const AboutSection = () => {
 
           </p>
 
-          <p className="font-body text-lg md:text-xl text-muted-foreground leading-relaxed mb-8">
-Perhaps:
-            • You have a loved one who is questioning or re-examining their faith, and you’re unsure how to respond without pushing them further away.
-            • You’re trying to understand the profound spiritual shift a friend or family member is going through
-            • Your relationships have become strained because of disagreements about faith, belief, or values—and you don’t know how to hold both truth and love.
+        <p className="font-body text-lg md:text-xl text-muted-foreground leading-relaxed mb-6">
+         Perhaps:
+        </p>
 
-           • You yourself are wrestling with doubt and difficult questions about God, the Bible, and meaning, and you’re afraid of where those questions might lead.
+         <ul className="list-disc pl-6 font-body text-lg md:text-xl text-muted-foreground leading-relaxed mb-8">
+         <li>
+    You have a loved one who is questioning or re-examining their faith, and you’re unsure how to respond without pushing them further away.
+  </li>
+  <li>
+    You’re trying to understand the profound spiritual shift a friend or family member is going through.
+  </li>
+  <li>
+    Your relationships have become strained because of disagreements about faith, belief, or values—and you don’t know how to hold both truth and love.
+  </li>
+  <li>
+    You yourself are wrestling with doubt and difficult questions about God, the Bible, and meaning, and you’re afraid of where those questions might lead.
+  </li>
+</ul>
 
-            Some who step away from the faith do so carrying deep wounds from the church. Others struggle under moral expectations they can no longer reconcile with their conscience. 
-            For some, the process leads to a highly personalized form of spirituality. For others, it results in a shift toward agnosticism, atheism, humanism, 
-            or other belief systems as they search for coherence and meaning.
+<p className="font-body text-lg md:text-xl text-muted-foreground leading-relaxed">
+  Some who step away from the faith do so carrying deep wounds from the church. Others struggle under moral expectations they can no longer reconcile with their conscience.
+</p>
 
-          </p>
+<p className="font-body text-lg md:text-xl text-muted-foreground leading-relaxed">
+  For some, the process leads to a highly personalized form of spirituality. For others, it results in a shift toward agnosticism, atheism, humanism, or other belief systems as they search for coherence and meaning.
+</p>
+
 
 
              <p className="font-body text-lg md:text-xl text-muted-foreground leading-relaxed mb-8">
