@@ -17,7 +17,7 @@ const CTASection = () => {
           </h2>
 
           <p className="font-body text-lg md:text-xl text-primary-foreground/80 leading-relaxed mb-10">
-            Join thousands of readers finding solace in honest faith. Pre-order your copy today 
+            Join thousands of readers finding solace in honest faith. Order your copy today 
             and receive exclusive bonus content from Victoria's personal journals.
           </p>
 
