@@ -23,8 +23,10 @@ const CTASection = () => {
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
            <Button
-  variant="hero"
+ variant="cta"
   size="lg"
+  className="shadow-lg shadow-amber-600/20"
+
   onClick={() =>
     window.open(
       "https://buy.stripe.com/00w5kDfpM1ps1fJ2Iy0gw01",
