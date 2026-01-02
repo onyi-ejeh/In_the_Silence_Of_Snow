@@ -22,11 +22,9 @@ const CTASection = () => {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-           <Button
- variant="cta"
+       <Button
   size="lg"
-  className="shadow-lg shadow-amber-600/20"
-
+  className="bg-amber-600 text-white hover:bg-amber-700 focus-visible:ring-amber-600"
   onClick={() =>
     window.open(
       "https://buy.stripe.com/00w5kDfpM1ps1fJ2Iy0gw01",
@@ -36,6 +34,7 @@ const CTASection = () => {
 >
   Order Now
 </Button>
+
 
             <Button 
               variant="ghost" 
