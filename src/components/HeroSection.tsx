@@ -63,9 +63,19 @@ const HeroSection = () => {
               transition={{ delay: 0.8, duration: 0.8 }}
               className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start"
             >
-              <Button variant="hero" size="lg">
-                Order Now
-              </Button>
+             <Button
+  variant="hero"
+  size="lg"
+  onClick={() =>
+    window.open(
+      "https://buy.stripe.com/00w5kDfpM1ps1fJ2Iy0gw01",
+      "_blank"
+    )
+  }
+>
+  Order Now
+</Button>
+
             </motion.div>
 
             <motion.p
