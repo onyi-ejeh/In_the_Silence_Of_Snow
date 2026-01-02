@@ -22,13 +22,19 @@ const CTASection = () => {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button 
-              variant="camel" 
-              size="xl"
-              className="text-primary"
-            >
-              Order Now
-            </Button>
+           <Button
+  variant="hero"
+  size="lg"
+  onClick={() =>
+    window.open(
+      "https://buy.stripe.com/00w5kDfpM1ps1fJ2Iy0gw01",
+      "_blank"
+    )
+  }
+>
+  Order Now
+</Button>
+
             <Button 
               variant="ghost" 
               size="xl"
