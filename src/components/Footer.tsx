@@ -1,7 +1,13 @@
 import { Facebook, Twitter, Instagram, Youtube } from "lucide-react";
 
 // Custom TikTok icon since lucide-react doesn't have it
-const TikTokIcon = ({ size = 20, className = "" }: { size?: number; className?: string }) => (
+const TikTokIcon = ({
+  size = 20,
+  className = "",
+}: {
+  size?: number;
+  className?: string;
+}) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width={size}
@@ -19,11 +25,31 @@ const TikTokIcon = ({ size = 20, className = "" }: { size?: number; className?: 
 );
 
 const socialLinks = [
-  { name: "Facebook", icon: Facebook, href: "https://www.facebook.com/vickyejeh91" },
-  { name: "Twitter", icon: Twitter, href: "https://x.com/vickyejehmicah" },
-  { name: "Instagram", icon: Instagram, href: "https://www.instagram.com/vickyejehmicah/?hl=en" },
-  { name: "YouTube", icon: Youtube, href: "https://www.youtube.com/@vicky_ejehmicah" },
-  { name: "TikTok", icon: TikTokIcon, href: "https://www.tiktok.com/@vicky_ejeh?lang=en" },
+  {
+    name: "Facebook",
+    icon: Facebook,
+    href: "https://www.facebook.com/vickyejeh91",
+  },
+  {
+    name: "Twitter",
+    icon: Twitter,
+    href: "https://x.com/vickyejehmicah",
+  },
+  {
+    name: "Instagram",
+    icon: Instagram,
+    href: "https://www.instagram.com/vickyejehmicah/?hl=en",
+  },
+  {
+    name: "YouTube",
+    icon: Youtube,
+    href: "https://www.youtube.com/@vicky_ejehmicah",
+  },
+  {
+    name: "TikTok",
+    icon: TikTokIcon,
+    href: "https://www.tiktok.com/@vicky_ejeh?lang=en",
+  },
 ];
 
 const Footer = () => {
@@ -38,15 +64,18 @@ const Footer = () => {
           <h3 className="font-display text-2xl md:text-3xl text-foreground mb-6">
             Follow the Journey
           </h3>
+
           <div className="flex justify-center gap-4">
             {socialLinks.map((social) => (
               <a
                 key={social.name}
                 href={social.href}
+                target="_blank"
+                rel="noopener noreferrer"
                 aria-label={`Follow on ${social.name}`}
                 className="w-12 h-12 rounded-full bg-accent flex items-center justify-center text-muted-foreground hover:bg-primary hover:text-primary-foreground transition-all duration-300 hover:-translate-y-1 hover:shadow-soft"
               >
-                <social.icon size={20} />
+                <social.icon size={20} className="text-current" />
               </a>
             ))}
           </div>
@@ -62,25 +91,25 @@ const Footer = () => {
               In the Silence of Snow
             </p>
             <p className="font-body text-sm text-muted-foreground mt-1">
-              © 2025 Victoria Onyi Ejeh. All rights reserved.
+              © {new Date().getFullYear()} Victoria Onyi Ejeh. All rights reserved.
             </p>
           </div>
 
           <div className="flex gap-6">
-            <a 
-              href="#" 
+            <a
+              href="#"
               className="font-body text-sm text-muted-foreground hover:text-foreground transition-colors"
             >
               Privacy Policy
             </a>
-            <a 
-              href="#" 
+            <a
+              href="#"
               className="font-body text-sm text-muted-foreground hover:text-foreground transition-colors"
             >
               Contact
             </a>
-            <a 
-              href="#" 
+            <a
+              href="#"
               className="font-body text-sm text-muted-foreground hover:text-foreground transition-colors"
             >
               Press Kit
