@@ -19,11 +19,11 @@ const TikTokIcon = ({ size = 20, className = "" }: { size?: number; className?: 
 );
 
 const socialLinks = [
-  { name: "Facebook", icon: Facebook, href: "#" },
-  { name: "Twitter", icon: Twitter, href: "#" },
-  { name: "Instagram", icon: Instagram, href: "#" },
-  { name: "YouTube", icon: Youtube, href: "#" },
-  { name: "TikTok", icon: TikTokIcon, href: "#" },
+  { name: "Facebook", icon: Facebook, href: "https://www.facebook.com/vickyejeh91" },
+  { name: "Twitter", icon: Twitter, href: "https://x.com/vickyejehmicah" },
+  { name: "Instagram", icon: Instagram, href: "https://www.instagram.com/vickyejehmicah/?hl=en" },
+  { name: "YouTube", icon: Youtube, href: "https://www.youtube.com/@vicky_ejehmicah" },
+  { name: "TikTok", icon: TikTokIcon, href: "https://www.tiktok.com/@vicky_ejeh?lang=en" },
 ];
 
 const Footer = () => {
