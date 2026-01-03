@@ -68,7 +68,7 @@ const HeroSection = () => {
   size="lg"
   onClick={() =>
     window.open(
-      "https://buy.stripe.com/00w5kDfpM1ps1fJ2Iy0gw01",
+      "https://buy.stripe.com/5kQcN591o0lo8Ib5UK0gw02",
       "_blank"
     )
   }
