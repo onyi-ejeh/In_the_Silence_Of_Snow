@@ -75,6 +75,24 @@ const HeroSection = () => {
 >
   Order Now
 </Button>
+               <Button
+    variant="ghost"
+    size="md"
+    className="border-2 border-primary-foreground/30 hover:bg-primary-foreground/10"
+    asChild
+  >
+    <a
+      href="https://www.amazon.com/dp/B0G31F428K"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      Buy Ebook on Amazon
+    </a>
+  </Button>
+
+  <p className="text-xs text-muted-foreground/70 mt-2">
+    Instant digital delivery via Amazon
+  </p>
 
             </motion.div>
 
