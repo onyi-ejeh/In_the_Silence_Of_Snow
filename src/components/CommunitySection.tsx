@@ -61,21 +61,29 @@ const CommunitySection = () => {
           </p>
 
           {/* CTA */}
-          <Button
-            size="lg"
-            className="
-              h-12 px-8 rounded-full
-              bg-primary
-              text-primary-foreground
-              hover:bg-primary/90
-              transition
-            "
-          >
-            Join the Community
-          </Button>
-           {/* MailerLite Embedded Form */}
-          <div className="mx-auto max-w-md">
-            <div className="ml-embedded" data-form="Mf34HB" />
+         {/* CTA Button stays */}
+<Button
+  size="lg"
+  className="
+    h-12 px-8 rounded-full
+    bg-primary
+    text-primary-foreground
+    hover:bg-primary/90
+    transition
+  "
+  onClick={() => {
+    const el = document.getElementById("community-form");
+    el?.scrollIntoView({ behavior: "smooth", block: "start" });
+  }}
+>
+  Join the Community
+</Button>
+
+{/* The actual form target */}
+<div id="community-form" className="mx-auto max-w-md mt-8 scroll-mt-24">
+  <MailerLiteEmbed accountId="2019276" formId="Mf34HB" />
+</div>
+
             </div>
         </motion.div>
       </div>
