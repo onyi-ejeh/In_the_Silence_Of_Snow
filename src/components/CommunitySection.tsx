@@ -78,6 +78,10 @@ const CommunitySection = () => {
 >
   Join the Community
 </Button>
+          <p className="text-sm text-foreground/60 mt-3">
+  Enter your email on the next step.
+</p>
+
 
 {/* The actual form target */}
 <div id="community-form" className="mx-auto max-w-md mt-8 scroll-mt-24">
