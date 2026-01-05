@@ -17,8 +17,8 @@ const CTASection = () => {
           </h2>
 
           <p className="font-body text-lg md:text-xl text-primary-foreground/80 leading-relaxed mb-10">
-            Order your copy today and receive exclusive digital reflections
-            from Victoria’s personal journals.
+            For those questioning, wandering, or returning.
+Join the community and begin the journey.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -49,7 +49,7 @@ const CTASection = () => {
                 transition
               "
             >
-              Join the Mailing List
+              Join the Community 
             </Button>
           </div>
         </motion.div>
