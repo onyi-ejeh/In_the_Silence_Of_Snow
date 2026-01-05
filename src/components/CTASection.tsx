@@ -16,24 +16,64 @@ const CTASection = () => {
             Begin the Journey
           </h2>
 
-          <p className="font-body text-lg md:text-xl text-primary-foreground/80 leading-relaxed mb-10">
-            Join thousands of readers finding solace in honest faith. Order your copy today
-            and receive exclusive bonus content from Victoria's personal journals.
+          <p className="font-body text-lg md:text-xl text-primary-foreground/80 leading-relaxed mb-8">
+            Order your paperback directly from this site and receive exclusive digital bonuses
+            from Victoria’s personal journals.
           </p>
 
+          {/* BONUS BOX */}
+          <div className="mx-auto mb-10 text-left max-w-xl rounded-2xl border border-primary-foreground/20 bg-primary-foreground/10 p-6">
+            <div className="flex items-center justify-between gap-3 flex-wrap">
+              <p className="font-body text-base md:text-lg font-medium">
+                Direct-purchase bonuses (free)
+              </p>
+              <span className="text-xs px-3 py-1 rounded-full bg-primary-foreground/15 border border-primary-foreground/20">
+                Delivered by email after checkout
+              </span>
+            </div>
+
+            <ul className="mt-4 space-y-2 text-sm md:text-base text-primary-foreground/85">
+              <li className="flex gap-2">
+                <span aria-hidden="true">✔</span>
+                <span>Bonus PDF: Selected journal reflections</span>
+              </li>
+              <li className="flex gap-2">
+                <span aria-hidden="true">✔</span>
+                <span>Reflection guide (printable)</span>
+              </li>
+              <li className="flex gap-2">
+                <span aria-hidden="true">✔</span>
+                <span>Bonus essay / extra chapter</span>
+              </li>
+              <li className="flex gap-2">
+                <span aria-hidden="true">✔</span>
+                <span>Instant download link sent to your email</span>
+              </li>
+            </ul>
+
+            <p className="mt-4 text-xs text-primary-foreground/70">
+              Bonuses are available only for purchases made on this site.
+            </p>
+          </div>
+
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <Button
-              size="lg"
-              className="bg-amber-600 text-white hover:bg-amber-700 focus-visible:ring-amber-600"
-              onClick={() =>
-                window.open(
-                  "https://buy.stripe.com/5kQcN591o0lo8Ib5UK0gw02",
-                  "_blank"
-                )
-              }
-            >
-              Order Paperback Now
-            </Button>
+            <div className="flex flex-col items-center">
+              <Button
+                size="lg"
+                className="bg-amber-600 text-white hover:bg-amber-700 focus-visible:ring-amber-600"
+                onClick={() =>
+                  window.open(
+                    "https://buy.stripe.com/5kQcN591o0lo8Ib5UK0gw02",
+                    "_blank"
+                  )
+                }
+              >
+                Order Paperback + Get Bonuses
+              </Button>
+              <p className="text-xs text-primary-foreground/70 mt-2">
+                Secure checkout • You’ll receive bonus links by email
+              </p>
+            </div>
 
             <div className="flex flex-col items-center sm:items-start">
               <Button
@@ -52,7 +92,7 @@ const CTASection = () => {
               </Button>
 
               <p className="text-xs text-primary-foreground/70 mt-2">
-                Instant digital delivery via Amazon
+                Ebook delivery handled by Amazon (bonuses not included)
               </p>
             </div>
           </div>
