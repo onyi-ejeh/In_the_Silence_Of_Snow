@@ -54,50 +54,52 @@ const CTASection = () => {
             <p className="mt-4 text-xs text-primary-foreground/70">
               Bonuses are available only for purchases made on this site.
             </p>
-         <div className="flex flex-col sm:flex-row gap-5 justify-center items-center mt-10">
-  {/* Primary */}
-  <div className="flex flex-col items-center">
-    <Button
-      size="default"
-      className="h-12 px-8 rounded-full bg-amber-600 text-white hover:bg-amber-700 focus-visible:ring-amber-600 shadow-sm"
-      onClick={() =>
-        window.open("https://buy.stripe.com/5kQcN591o0lo8Ib5UK0gw02", "_blank")
-      }
-    >
-      Order Paperback
-    </Button>
-    <p className="text-xs text-primary-foreground/70 mt-2">
-      Includes free digital bonuses (email delivery)
-    </p>
-  </div>
+          </div>
 
-  <div className="hidden sm:flex items-center justify-center px-1">
-    <span className="text-xs text-primary-foreground/50">or</span>
-  </div>
+          {/* BUTTONS */}
+          <div className="flex flex-col sm:flex-row gap-5 justify-center items-center mt-10">
+            <div className="flex flex-col items-center">
+              <Button
+                size="default"
+                className="h-12 px-8 rounded-full bg-amber-600 text-white hover:bg-amber-700 focus-visible:ring-amber-600 shadow-sm"
+                onClick={() =>
+                  window.open(
+                    "https://buy.stripe.com/5kQcN591o0lo8Ib5UK0gw02",
+                    "_blank"
+                  )
+                }
+              >
+                Order Paperback
+              </Button>
+              <p className="text-xs text-primary-foreground/70 mt-2">
+                Includes free digital bonuses (email delivery)
+              </p>
+            </div>
 
-  {/* Secondary */}
-  <div className="flex flex-col items-center">
-    <Button
-      size="default"
-      variant="ghost"
-      className="h-12 px-8 rounded-full border-2 border-primary-foreground/35 text-primary-foreground hover:bg-primary-foreground/10"
-      asChild
-    >
-      <a
-        href="https://www.amazon.com/dp/B0G31F428K"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Buy Ebook on Amazon
-      </a>
-    </Button>
-    <p className="text-xs text-primary-foreground/70 mt-2">
-      Instant Kindle delivery via Amazon
-    </p>
-  </div>
-</div>
+            <div className="hidden sm:flex items-center justify-center px-1">
+              <span className="text-xs text-primary-foreground/50">or</span>
+            </div>
 
-
+            <div className="flex flex-col items-center">
+              <Button
+                size="default"
+                variant="ghost"
+                className="h-12 px-8 rounded-full border-2 border-primary-foreground/35 text-primary-foreground hover:bg-primary-foreground/10"
+                asChild
+              >
+                <a
+                  href="https://www.amazon.com/dp/B0G31F428K"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Buy Ebook on Amazon
+                </a>
+              </Button>
+              <p className="text-xs text-primary-foreground/70 mt-2">
+                Instant Kindle delivery via Amazon
+              </p>
+            </div>
+          </div>
         </motion.div>
       </div>
     </section>
