@@ -32,7 +32,7 @@ const CTASection = () => {
                 )
               }
             >
-              Order Now
+              Order Paperback Now
             </Button>
 
             <div className="flex flex-col items-center sm:items-start">
