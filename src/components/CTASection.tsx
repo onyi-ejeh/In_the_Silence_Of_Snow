@@ -88,7 +88,7 @@ const CTASection = () => {
                 asChild
               >
                 <a
-                  href="https://www.amazon.com/dp/B0G31F428K"
+                  href="https://www.amazon.com/dp/B0G8HCMZR7"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
