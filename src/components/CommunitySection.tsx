@@ -71,10 +71,22 @@ const CommunitySection = () => {
 </p>
 
 
-{/* The actual form target */}
-<div id="community-form" className="mx-auto max-w-md mt-8 scroll-mt-24">
-  <MailerLiteEmbed accountId="2019276" formId="Mf34HB" />
-</div>
+<Button
+  size="lg"
+  className="
+    h-12 px-8 rounded-full
+    bg-primary
+    text-primary-foreground
+    hover:bg-primary/90
+    transition
+  "
+  onClick={() => {
+    const el = document.getElementById("community-form");
+    el?.scrollIntoView({ behavior: "smooth", block: "start" });
+  }}
+>
+  Join the Community
+</Button>
 
           
         </motion.div>
