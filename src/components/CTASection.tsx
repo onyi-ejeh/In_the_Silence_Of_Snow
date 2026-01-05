@@ -49,8 +49,9 @@ Join the community and begin the journey.
                 transition
               "
             >
-              Join the Community 
-            </Button>
+                asChild
+  <a href="#community">Join the Community</a>
+</Button>
           </div>
         </motion.div>
       </div>
