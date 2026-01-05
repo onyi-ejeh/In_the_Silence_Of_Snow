@@ -37,21 +37,22 @@ Join the community and begin the journey.
 </Button>
 
             {/* Secondary */}
-            <Button
-              size="lg"
-              className="
-                h-12 px-8 rounded-full
-                bg-primary-foreground/15
-                text-primary-foreground
-                border border-primary-foreground/30
-                backdrop-blur-sm
-                hover:bg-primary-foreground/25
-                transition
-              "
-            >
-                asChild
+           <Button
+  size="lg"
+  asChild
+  className="
+    h-12 px-8 rounded-full
+    bg-primary-foreground/15
+    text-primary-foreground
+    border border-primary-foreground/30
+    backdrop-blur-sm
+    hover:bg-primary-foreground/25
+    transition
+  "
+>
   <a href="#community">Join the Community</a>
 </Button>
+
           </div>
         </motion.div>
       </div>
