@@ -63,33 +63,32 @@ const HeroSection = () => {
               transition={{ delay: 0.8, duration: 0.8 }}
               className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start"
             >
-             <Button
-  variant="hero"
-  size="lg"
-  onClick={() =>
-    window.open(
-      "https://buy.stripe.com/5kQcN591o0lo8Ib5UK0gw02",
-      "_blank"
-    )
-  }
->
-  Order Now
-</Button>
-               <Button
-    variant="ghost"
-    size="md"
-    className="border-2 border-primary-foreground/30 hover:bg-primary-foreground/10"
-    asChild
-  >
-    <a
-      href="https://www.amazon.com/dp/B0G31F428K"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      Buy Ebook on Amazon
-    </a>
-  </Button>
-
+           <Button
+                size="default"
+                className="h-12 px-8 rounded-full bg-amber-600 text-white hover:bg-amber-700 focus-visible:ring-amber-600 shadow-sm"
+                onClick={() =>
+                  window.open(
+                    "https://buy.stripe.com/5kQcN591o0lo8Ib5UK0gw02",
+                    "_blank"
+                  )
+                }
+              >
+                Order Paperback
+              </Button>
+                <Button
+                size="default"
+                variant="ghost"
+                className="h-12 px-8 rounded-full border-2 border-primary-foreground/35 text-primary-foreground hover:bg-primary-foreground/10"
+                asChild
+              >
+                <a
+                  href="https://www.amazon.com/dp/B0G8HCMZR7"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Buy Ebook on Amazon
+                </a>
+              </Button>
   <p className="text-xs text-muted-foreground/70 mt-2">
     Instant digital delivery via Amazon
   </p>
