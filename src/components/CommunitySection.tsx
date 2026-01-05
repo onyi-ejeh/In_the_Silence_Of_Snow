@@ -62,22 +62,10 @@ const CommunitySection = () => {
 
           {/* CTA */}
          {/* CTA Button stays */}
-<Button
-  size="lg"
-  className="
-    h-12 px-8 rounded-full
-    bg-primary
-    text-primary-foreground
-    hover:bg-primary/90
-    transition
-  "
-  onClick={() => {
-    const el = document.getElementById("community-form");
-    el?.scrollIntoView({ behavior: "smooth", block: "start" });
-  }}
->
-  Join the Community
-</Button>
+<div className="mx-auto max-w-md">
+  <div className="ml-embedded" data-form="Mf34HB" />
+</div>
+
           <p className="text-sm text-foreground/60 mt-3">
   Enter your email on the next step.
 </p>
