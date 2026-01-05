@@ -27,7 +27,7 @@ const CTASection = () => {
               size="lg"
               className="h-12 px-8 rounded-full bg-amber-600 text-white hover:bg-amber-700"
             >
-              Order the Paperback
+              Order Now
             </Button>
 
             {/* Secondary */}
