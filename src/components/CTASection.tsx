@@ -54,13 +54,11 @@ const CTASection = () => {
             <p className="mt-4 text-xs text-primary-foreground/70">
               Bonuses are available only for purchases made on this site.
             </p>
-          </div>
-
-        <div className="flex flex-col sm:flex-row gap-5 justify-center items-stretch sm:items-start mt-10">
+         <div className="flex flex-col sm:flex-row gap-5 justify-center items-center mt-10">
   {/* Primary */}
   <div className="flex flex-col items-center">
     <Button
-      size="lg"
+      size="default"
       className="h-12 px-8 rounded-full bg-amber-600 text-white hover:bg-amber-700 focus-visible:ring-amber-600 shadow-sm"
       onClick={() =>
         window.open("https://buy.stripe.com/5kQcN591o0lo8Ib5UK0gw02", "_blank")
@@ -73,7 +71,6 @@ const CTASection = () => {
     </p>
   </div>
 
-  {/* Optional OR divider */}
   <div className="hidden sm:flex items-center justify-center px-1">
     <span className="text-xs text-primary-foreground/50">or</span>
   </div>
@@ -81,9 +78,9 @@ const CTASection = () => {
   {/* Secondary */}
   <div className="flex flex-col items-center">
     <Button
-      size="lg"
-      variant="outline"
-      className="h-12 px-8 rounded-full border-primary-foreground/35 text-primary-foreground hover:bg-primary-foreground/10"
+      size="default"
+      variant="ghost"
+      className="h-12 px-8 rounded-full border-2 border-primary-foreground/35 text-primary-foreground hover:bg-primary-foreground/10"
       asChild
     >
       <a
@@ -99,6 +96,7 @@ const CTASection = () => {
     </p>
   </div>
 </div>
+
 
         </motion.div>
       </div>
