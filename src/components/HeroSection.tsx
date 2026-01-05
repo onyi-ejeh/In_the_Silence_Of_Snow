@@ -64,7 +64,7 @@ const HeroSection = () => {
               className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start"
             >
            <Button
-                size="default"
+                size="xl"
                 className="h-12 px-8 rounded-full bg-amber-600 text-white hover:bg-amber-700 focus-visible:ring-amber-600 shadow-sm"
                 onClick={() =>
                   window.open(
