@@ -36,18 +36,24 @@ const CTASection = () => {
 </Button>
 
 
-            <Button 
-              variant="ghost" 
-              size="xl"
-              className="border-2 border-primary-foreground/30 hover:bg-primary-foreground/10"
-            >
-              Join the Mailing List
-            </Button>
-          </div>
+            <Button
+    variant="ghost"
+    size="md"
+    className="border-2 border-primary-foreground/30 hover:bg-primary-foreground/10"
+    asChild
+  >
+    <a
+      href="https://www.amazon.com/dp/YOUR_EBOOK_ASIN"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      Buy Ebook on Amazon
+    </a>
+  </Button>
 
-          <p className="mt-8 text-sm text-primary-foreground/60 font-body">
-            Expected release: Spring 2025
-          </p>
+  <p className="text-xs text-muted-foreground/70 mt-2">
+    Instant digital delivery via Amazon
+  </p>
         </motion.div>
       </div>
     </section>
