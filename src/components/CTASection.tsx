@@ -38,7 +38,7 @@ const CTASection = () => {
             <div className="flex flex-col items-center sm:items-start">
               <Button
                 variant="ghost"
-                size="lg"
+                size="xl"
                 className="border-2 border-primary-foreground/30 hover:bg-primary-foreground/10"
                 asChild
               >
