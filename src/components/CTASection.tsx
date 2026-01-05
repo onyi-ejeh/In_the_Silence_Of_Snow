@@ -23,7 +23,7 @@ const CTASection = () => {
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Button
-              size="xl"
+              size="lg"
               className="bg-amber-600 text-white hover:bg-amber-700 focus-visible:ring-amber-600"
               onClick={() =>
                 window.open(
