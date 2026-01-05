@@ -61,29 +61,9 @@ const CommunitySection = () => {
           </p>
 
           {/* CTA Button */}
-        <Button
-  size="lg"
-  onClick={() => {
-    const el = document.getElementById("community-form");
-    if (!el) return;
-
-    el.scrollIntoView({ behavior: "smooth", block: "start" });
-
-    // If you have a sticky header, this prevents the form from landing behind it
-    setTimeout(() => {
-      window.scrollBy({ top: -96, left: 0, behavior: "smooth" });
-    }, 50);
-  }}
->
-  Join the Community
-</Button>
-
-
-          {/* Email Form */}
-        <div id="community-form" className="mx-auto max-w-md scroll-mt-28">
+       <div className="mx-auto max-w-md mt-8">
   <MailerLiteEmbed formId="Mf34HB" />
 </div>
-
           <p className="text-sm text-foreground/60 mt-4">
             Your email stays private. Unsubscribe anytime.
           </p>
