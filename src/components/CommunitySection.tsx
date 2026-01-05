@@ -2,7 +2,6 @@ import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { MailerLiteEmbed } from "@/components/MailerLiteEmbed";
 
-
 const CommunitySection = () => {
   return (
     <section
@@ -31,7 +30,8 @@ const CommunitySection = () => {
           <p className="font-body text-base md:text-lg leading-relaxed text-foreground/75 mb-8">
             This community is for readers who resonate with honest faith,
             reflection, and the courage to sit with difficult questions.
-            <br /><br />
+            <br />
+            <br />
             When you join, you’ll receive occasional reflections from my personal
             journals, thoughtful updates, and early access to new writing —
             shared gently, without noise or pressure.
@@ -55,40 +55,44 @@ const CommunitySection = () => {
             </li>
           </ul>
 
-          {/* Gentle reassurance */}
-          <p className="text-sm text-foreground/60 mb-8">
+          {/* Reassurance */}
+          <p className="text-sm text-foreground/60 mb-10">
             No spam. No preaching. You can leave anytime.
           </p>
 
-          {/* CTA */}
-         {/* CTA Button stays */}
-<div className="mx-auto max-w-md">
-  <div className="ml-embedded" data-form="Mf34HB" />
-</div>
+          {/* CTA Button */}
+          <Button
+            size="lg"
+            className="
+              h-12 px-8 rounded-full
+              bg-primary
+              text-primary-foreground
+              hover:bg-primary/90
+              transition
+              mb-12
+            "
+            onClick={() => {
+              const el = document.getElementById("community-form");
+              el?.scrollIntoView({ behavior: "smooth", block: "start" });
+            }}
+          >
+            Join the Community
+          </Button>
 
-          <p className="text-sm text-foreground/60 mt-3">
-  Enter your email on the next step.
-</p>
+          {/* Email Form */}
+          <div
+            id="community-form"
+            className="mx-auto max-w-md scroll-mt-24"
+          >
+            <MailerLiteEmbed
+              accountId="2019276"
+              formId="Mf34HB"
+            />
+          </div>
 
-
-<Button
-  size="lg"
-  className="
-    h-12 px-8 rounded-full
-    bg-primary
-    text-primary-foreground
-    hover:bg-primary/90
-    transition
-  "
-  onClick={() => {
-    const el = document.getElementById("community-form");
-    el?.scrollIntoView({ behavior: "smooth", block: "start" });
-  }}
->
-  Join the Community
-</Button>
-
-          
+          <p className="text-sm text-foreground/60 mt-4">
+            Your email stays private. Unsubscribe anytime.
+          </p>
         </motion.div>
       </div>
     </section>
@@ -96,4 +100,3 @@ const CommunitySection = () => {
 };
 
 export default CommunitySection;
-
