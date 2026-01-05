@@ -71,6 +71,10 @@ const CommunitySection = () => {
           >
             Join the Community
           </Button>
+           {/* MailerLite Embedded Form */}
+          <div className="mx-auto max-w-md">
+            <div className="ml-embedded" data-form="Mf34HB" />
+            </div>
         </motion.div>
       </div>
     </section>
