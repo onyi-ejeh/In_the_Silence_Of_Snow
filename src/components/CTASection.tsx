@@ -39,7 +39,6 @@ Join the community and begin the journey.
             {/* Secondary */}
            <Button
   size="lg"
-  asChild
   className="
     h-12 px-8 rounded-full
     bg-primary-foreground/15
@@ -49,8 +48,12 @@ Join the community and begin the journey.
     hover:bg-primary-foreground/25
     transition
   "
+  onClick={() => {
+    const el = document.getElementById("community");
+    el?.scrollIntoView({ behavior: "smooth", block: "start" });
+  }}
 >
-  <a href="#community">Join the Community</a>
+  Join the Community
 </Button>
 
           </div>
