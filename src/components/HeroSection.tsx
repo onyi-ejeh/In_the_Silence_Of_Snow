@@ -73,33 +73,9 @@ const HeroSection = () => {
                   )
                 }
               >
-                Order Paperback
+                Order Now
               </Button>
-               <Button
-  size="default"
-  className="
-    h-12 px-8 rounded-full
-    bg-slate-200/90
-    text-slate-900
-    hover:bg-slate-300
-    shadow-sm
-    transition
-  "
-  asChild
->
-  <a
-    href="https://www.amazon.com/dp/B0G8HCMZR7"
-    target="_blank"
-    rel="noopener noreferrer"
-  >
-    Buy Ebook on Amazon
-  </a>
-</Button>
-
-  <p className="text-xs text-muted-foreground/70 mt-2">
-    Instant digital delivery via Amazon
-  </p>
-
+          
             </motion.div>
 
             <motion.p
