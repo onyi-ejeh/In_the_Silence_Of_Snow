@@ -84,7 +84,7 @@ const CommunitySection = () => {
   <MailerLiteEmbed accountId="2019276" formId="Mf34HB" />
 </div>
 
-            </div>
+          
         </motion.div>
       </div>
     </section>
