@@ -37,7 +37,7 @@ Join the community and begin the journey.
 </Button>
 
             {/* Secondary */}
-           <Button
+         <Button
   size="lg"
   className="
     h-12 px-8 rounded-full
@@ -49,8 +49,15 @@ Join the community and begin the journey.
     transition
   "
   onClick={() => {
-    const el = document.getElementById("community");
-    el?.scrollIntoView({ behavior: "smooth", block: "start" });
+    const el = document.getElementById("community-form");
+    if (!el) return;
+
+    el.scrollIntoView({ behavior: "smooth", block: "start" });
+
+    // offset for sticky header (adjust if needed)
+    setTimeout(() => {
+      window.scrollBy({ top: -96, left: 0, behavior: "smooth" });
+    }, 50);
   }}
 >
   Join the Community
