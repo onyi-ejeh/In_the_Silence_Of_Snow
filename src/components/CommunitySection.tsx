@@ -63,7 +63,7 @@ const CommunitySection = () => {
   Join the Community
 </h3>
 
-<div className="ml-embedded" data-form="Mf34HB"></div>
+<MailerLiteEmbed formId="Mf34HB" accountId="2019276" />
 
 <p className="text-sm text-foreground/60 mt-4">
   Your email stays private. Unsubscribe anytime.
