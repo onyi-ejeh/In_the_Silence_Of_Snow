@@ -62,9 +62,6 @@ const CommunitySection = () => {
         <h3 id="community-form" className="text-xl font-medium mb-4 scroll-mt-28">
   Join the Community
 </h3>
-<div className="mx-auto max-w-md">
-  <MailerLiteEmbed formId="Mf34HB" />
-</div>
 
 
           <p className="text-sm text-foreground/60 mt-4">
