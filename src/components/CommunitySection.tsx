@@ -1,5 +1,4 @@
 import { motion } from "framer-motion";
-import { Button } from "@/components/ui/button";
 import { MailerLiteEmbed } from "@/components/MailerLiteEmbed";
 
 const CommunitySection = () => {
@@ -60,10 +59,18 @@ const CommunitySection = () => {
             No spam. No preaching. You can leave anytime.
           </p>
 
-          {/* CTA Button */}
-       <div id="community-form" className="mx-auto max-w-md mt-8 scroll-mt-28">
-  <MailerLiteEmbed formId="Mf34HB" />
-</div>
+          {/* Anchor heading (scroll target) */}
+          <h3
+            id="community-form"
+            className="text-xl font-medium mb-4 scroll-mt-28"
+          >
+            Join the Community
+          </h3>
+
+          {/* Email Form */}
+          <div className="mx-auto max-w-md">
+            <MailerLiteEmbed formId="Mf34HB" />
+          </div>
 
           <p className="text-sm text-foreground/60 mt-4">
             Your email stays private. Unsubscribe anytime.
