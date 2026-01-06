@@ -37,31 +37,23 @@ Join the community and begin the journey.
 </Button>
 
             {/* Secondary */}
-         <Button
-  size="lg"
-  className="
-    h-12 px-8 rounded-full
-    bg-primary-foreground/15
-    text-primary-foreground
-    border border-primary-foreground/30
-    backdrop-blur-sm
-    hover:bg-primary-foreground/25
-    transition
-  "
-  onClick={() => {
-    const el = document.getElementById("community-form");
-    if (!el) return;
+     <a href="#community-form" className="inline-flex justify-center">
+  <Button
+    size="lg"
+    className="
+      h-12 px-8 rounded-full
+      bg-primary-foreground/15
+      text-primary-foreground
+      border border-primary-foreground/30
+      backdrop-blur-sm
+      hover:bg-primary-foreground/25
+      transition
+    "
+  >
+    Join the Community
+  </Button>
+</a>
 
-    el.scrollIntoView({ behavior: "smooth", block: "start" });
-
-    // offset for sticky header (adjust if needed)
-    setTimeout(() => {
-      window.scrollBy({ top: -96, left: 0, behavior: "smooth" });
-    }, 50);
-  }}
->
-  Join the Community
-</Button>
 
           </div>
         </motion.div>
