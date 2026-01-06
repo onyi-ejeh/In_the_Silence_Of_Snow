@@ -26,7 +26,7 @@ const QuoteSection = () => {
           <div className="w-16 h-px bg-camel mx-auto mb-6" />
 
           <cite className="font-body text-muted-foreground not-italic tracking-wide">
-            — From Chapter Three
+            — Excerpt from book
           </cite>
         </motion.div>
       </div>
