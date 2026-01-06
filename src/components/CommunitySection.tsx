@@ -1,5 +1,7 @@
 import { motion } from "framer-motion";
 import { MailerLiteEmbed } from "@/components/MailerLiteEmbed";
+import BulletproofMailerLiteForm from "@/components/BulletproofMailerLiteForm";
+
 
 const CommunitySection = () => {
   return (
@@ -63,7 +65,7 @@ const CommunitySection = () => {
   Join the Community
 </h3>
 
-<MailerLiteEmbed formId="Mf34HB" accountId="2019276" />
+<BulletproofMailerLiteForm />
 
 <p className="text-sm text-foreground/60 mt-4">
   Your email stays private. Unsubscribe anytime.
