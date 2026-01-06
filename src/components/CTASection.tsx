@@ -40,6 +40,7 @@ Join the community and begin the journey.
 <Button
   size="lg"
   className="
+    ml-onclick-form
     h-12 px-8 rounded-full
     bg-primary-foreground/15
     text-primary-foreground
@@ -48,10 +49,11 @@ Join the community and begin the journey.
     hover:bg-primary-foreground/25
     transition
   "
-  onClick={() => {
-    // @ts-ignore
-    window.ml?.("show", "Mf34HB", true);
-  }}
+  onClick={() =>
+    document
+      .getElementById("community-form")
+      ?.scrollIntoView({ behavior: "smooth" })
+  }
 >
   Join the Community
 </Button>
