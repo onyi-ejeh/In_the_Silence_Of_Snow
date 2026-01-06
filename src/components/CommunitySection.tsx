@@ -59,15 +59,16 @@ const CommunitySection = () => {
             No spam. No preaching. You can leave anytime.
           </p>
 
-     <h3 id="community-form" className="text-xl font-medium mb-4 scroll-mt-28">
+  <h3 id="community-form" className="text-xl font-medium mb-4 scroll-mt-28">
   Join the Community
 </h3>
 
-<div className="ml-embedded" data-form="Mf34HB"></div>
+<MailerLiteEmbed formId="Mf34HB" />
 
-          <p className="text-sm text-foreground/60 mt-4">
-            Your email stays private. Unsubscribe anytime.
-          </p>
+<p className="text-sm text-foreground/60 mt-4">
+  Your email stays private. Unsubscribe anytime.
+</p>
+
         </motion.div>
       </div>
     </section>
