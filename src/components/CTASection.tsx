@@ -37,9 +37,17 @@ Join the community and begin the journey.
 </Button>
 
             {/* Secondary */}
-  <Button
+<Button
   size="lg"
-  className="h-12 px-8 rounded-full"
+  className="
+    h-12 px-8 rounded-full
+    bg-primary-foreground/15
+    text-primary-foreground
+    border border-primary-foreground/30
+    backdrop-blur-sm
+    hover:bg-primary-foreground/25
+    transition
+  "
   onClick={() => {
     // @ts-ignore
     window.ml?.("show", "Mf34HB", true);
