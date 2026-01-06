@@ -13,7 +13,7 @@ export default function BulletproofMailerLiteForm({
     <form
       action={actionUrl}
       method="post"
-      target="_blank"
+      target="_self"
       className="mt-6 w-full max-w-md mx-auto text-left"
       onSubmit={() => {
         // optional: clear input after submit
