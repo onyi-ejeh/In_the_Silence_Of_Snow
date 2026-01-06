@@ -36,7 +36,7 @@ const AuthorSection = () => {
               </p>
 
               <p className="font-body text-lg text-muted-foreground leading-relaxed">
-                <span className="italic">"In the Silence of Snow"</span> is her debut memoir, written by a former atheist 
+                <span className="italic">"In the Silence of Snow"</span> is her debut memoir, written as a former atheist 
                 who moved to Sweden believing it would be a place where her atheism could finally breathe. 
                 Through years of journaling in the quiet of winter,the book traces an unexpected return to faith through Questioning, doubt, and finally with evidence.
               </p>
