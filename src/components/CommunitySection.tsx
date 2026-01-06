@@ -61,9 +61,10 @@ const CommunitySection = () => {
           </p>
 
           {/* CTA Button */}
-       <div className="mx-auto max-w-md mt-8">
+       <div id="community-form" className="mx-auto max-w-md mt-8 scroll-mt-28">
   <MailerLiteEmbed formId="Mf34HB" />
 </div>
+
           <p className="text-sm text-foreground/60 mt-4">
             Your email stays private. Unsubscribe anytime.
           </p>
