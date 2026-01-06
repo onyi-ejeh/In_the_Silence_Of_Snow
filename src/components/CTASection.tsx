@@ -37,62 +37,16 @@ Join the community and begin the journey.
 </Button>
 
             {/* Secondary */}
-    <Button
+  <Button
   size="lg"
-  className="
-    h-12 px-8 rounded-full
-    bg-primary-foreground/15
-    text-primary-foreground
-    border border-primary-foreground/30
-    backdrop-blur-sm
-    hover:bg-primary-foreground/25
-    transition
-  "
+  className="h-12 px-8 rounded-full"
   onClick={() => {
-    const targetId = "community-form";
-    const target = document.getElementById(targetId);
-    if (!target) return;
-
-    const getScrollableParent = (el: HTMLElement | null) => {
-      let parent: HTMLElement | null = el?.parentElement ?? null;
-      while (parent) {
-        const style = window.getComputedStyle(parent);
-        const overflowY = style.overflowY;
-        const isScrollable =
-          (overflowY === "auto" || overflowY === "scroll") &&
-          parent.scrollHeight > parent.clientHeight;
-
-        if (isScrollable) return parent;
-        parent = parent.parentElement;
-      }
-      return document.scrollingElement as HTMLElement; // fallback
-    };
-
-    const container = getScrollableParent(target);
-
-    // Scroll the container so the target becomes visible
-    const containerRect = container.getBoundingClientRect();
-    const targetRect = target.getBoundingClientRect();
-
-    const currentScrollTop =
-      container === document.scrollingElement
-        ? window.scrollY
-        : container.scrollTop;
-
-    const offset = 96; // adjust if you have a sticky header
-    const top =
-      currentScrollTop + (targetRect.top - containerRect.top) - offset;
-
-    if (container === document.scrollingElement) {
-      window.scrollTo({ top, behavior: "smooth" });
-    } else {
-      container.scrollTo({ top, behavior: "smooth" });
-    }
+    // @ts-ignore
+    window.ml?.("show", "Mf34HB", true);
   }}
 >
   Join the Community
 </Button>
-
 
 
           </div>
