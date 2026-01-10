@@ -54,7 +54,7 @@ const HeroSection = () => {
               transition={{ delay: 0.6, duration: 0.8 }}
               className="font-body text-lg md:text-xl text-muted-foreground leading-relaxed mb-10 max-w-lg mx-auto lg:mx-0"
             >
-              A Rarely Honest Account of Faith, Doubt, and the Quiet Work of Deconstruction.
+              A Rarely Honest Account of Faith, Doubt, and invisible Work of Deconstruction.
             </motion.p>
 
             <motion.div
