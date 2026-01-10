@@ -12,10 +12,14 @@ const AuthorSection = () => {
             transition={{ duration: 0.8 }}
             className="grid md:grid-cols-3 gap-12 items-center"
           >
-            {/* Author placeholder - could be replaced with actual photo */}
+            {/* Author photo */}
             <div className="flex justify-center md:justify-start">
-              <div className="w-48 h-48 md:w-56 md:h-56 rounded-full bg-accent flex items-center justify-center shadow-soft">
-                <span className="font-display text-5xl text-muted-foreground/40">VE</span>
+              <div className="w-48 h-48 md:w-56 md:h-56 rounded-full overflow-hidden shadow-soft">
+                <img
+                  src="/Pro_image/vickyejeh.jpg"
+                  alt="Victoria Onyi Ejeh"
+                  className="w-full h-full object-cover"
+                />
               </div>
             </div>
 
@@ -30,15 +34,14 @@ const AuthorSection = () => {
 
               <p className="font-body text-lg text-muted-foreground leading-relaxed mb-4">
                 Victoria Onyi Ejeh is a writer and reflective thinker whose work explores 
-                the intersection of faith, personal transformation and entrepreneurship. 
+                the intersection of faith, personal transformation, and entrepreneurship. 
                 Born in Nigeria and now calling Sweden home, she writes from the liminal spaces between worlds.
-
               </p>
 
               <p className="font-body text-lg text-muted-foreground leading-relaxed">
                 <span className="italic">"In the Silence of Snow"</span> is her debut memoir, written as a former atheist 
                 who moved to Sweden believing it would be a place where her atheism could finally thrive. 
-                Through years of journaling in the quiet of winter,the book traces an unexpected return to faith through Questioning, doubt, and finally with evidence.
+                Through years of journaling in the quiet of winter, the book traces an unexpected return to faith through questioning, doubt, and finally, evidence.
               </p>
             </div>
           </motion.div>
