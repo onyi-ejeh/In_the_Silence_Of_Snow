@@ -30,14 +30,14 @@ const AuthorSection = () => {
 
               <p className="font-body text-lg text-muted-foreground leading-relaxed mb-4">
                 Victoria Onyi Ejeh is a writer and reflective thinker whose work explores 
-                the intersection of faith, culture, and personal transformation. 
+                the intersection of faith, personal transformation and entrepreneurship. 
                 Born in Nigeria and now calling Sweden home, she writes from the liminal spaces between worlds.
 
               </p>
 
               <p className="font-body text-lg text-muted-foreground leading-relaxed">
                 <span className="italic">"In the Silence of Snow"</span> is her debut memoir, written as a former atheist 
-                who moved to Sweden believing it would be a place where her atheism could finally breathe. 
+                who moved to Sweden believing it would be a place where her atheism could finally thrive. 
                 Through years of journaling in the quiet of winter,the book traces an unexpected return to faith through Questioning, doubt, and finally with evidence.
               </p>
             </div>
