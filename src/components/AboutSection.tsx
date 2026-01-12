@@ -18,7 +18,8 @@ const AboutSection = () => {
           <div className="w-16 h-px bg-camel mx-auto mb-10" />
 
           <p className="font-body text-lg md:text-xl text-muted-foreground leading-relaxed mb-8">
-          In recent years, many people have begun to question or step away from the faith they once held. 
+          This bookn is for people who are asking hard questions about faith. You don't have to believe to read it. 
+            In recent years, many people have begun to step away from the faith they once held. 
             This has touched families, friendships, and church communities in deeply personal ways.
 
           </p>
