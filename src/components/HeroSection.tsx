@@ -54,7 +54,8 @@ const HeroSection = () => {
               transition={{ delay: 0.6, duration: 0.8 }}
               className="font-body text-lg md:text-xl text-muted-foreground leading-relaxed mb-10 max-w-lg mx-auto lg:mx-0"
             >
-              A Rarely Honest Account of Faith, Doubt, and the invisible Work of Deconstruction.
+              I spent over a decade as an atheist.
+This book reflects the questions, doubts, and return that followed.
             </motion.p>
 
             <motion.div
